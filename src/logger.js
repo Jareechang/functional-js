@@ -1,5 +1,5 @@
 let log = function(f) {
-    console.log(f.apply(null, arguments));
+    console.log(f.call(null));
 }
 
 export default log;
