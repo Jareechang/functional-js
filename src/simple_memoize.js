@@ -1,4 +1,3 @@
-
 let memoize = function(f) {
     var cache = {};
 
